@@ -1,0 +1,4 @@
+- [Task execution flow](feedback_task_flow.md) — Don't auto-delegate to sub-agents; research skills + GitHub first, then plan after confirmation
+- [Flow precipitation system](flow_precipitation.md) — Record workflows at ~/.claude/flow-records/ after they work
+- [Flow records index](flow_records_index.md) — Index of all precipitated workflow records
+- [Session highlights](session_highlights.md) — Session recap, monthly at ~/.claude/session-highlights/YYYY-MM.md

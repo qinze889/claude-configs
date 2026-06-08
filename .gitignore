@@ -1,0 +1,31 @@
+# 运行时/缓存 —— 不上传
+history.jsonl
+cache/
+backups/
+telemetry/
+session-env/
+sessions/
+shell-snapshots/
+daemon/
+jobs/
+paste-cache/
+stats-cache.json
+daemon.log
+session-log.md
+session-highlights/
+file-history/
+# 排除 projects/ 下的会话运行时文件（memory/ 保留）
+projects/**/*.jsonl
+projects/**/subagents/
+projects/**/tool-results/
+projects/**/.highwatermark
+projects/**/.lock
+
+# 第三方内容
+plugins/
+
+# 会话任务状态
+tasks/
+
+# 杂项
+.last-cleanup

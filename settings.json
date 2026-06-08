@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions"
+  },
+  "model": "haiku",
+  "effortLevel": "high",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "light"
+}
