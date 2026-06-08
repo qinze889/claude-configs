@@ -12,7 +12,6 @@ paste-cache/
 stats-cache.json
 daemon.log
 session-log.md
-session-highlights/
 file-history/
 # 排除 projects/ 下的会话运行时文件（memory/ 保留）
 projects/**/*.jsonl

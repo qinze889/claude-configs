@@ -1,6 +1,6 @@
 ---
 name: session-log
-description: 会话收束记录按月拆分，位于 ~/.claude/session-log/YYYY-MM.md，每次收束追加一条
+description: 会话收束记录按月拆分，位于 ~/.claude/session-highlights/YYYY-MM.md，每次收束追加一条
 metadata: 
   node_type: memory
   type: reference
