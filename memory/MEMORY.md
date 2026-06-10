@@ -1,0 +1,1 @@
+- [SOP-Superpowers 整合](sop-superpowers-integration.md) — SOP 升级为请求分类分流 + superpowers skill 路由
