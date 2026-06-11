@@ -10,6 +10,7 @@
 ## 项目特有流程
 
 - [MinerU合同PDF批量OCR](project-specific/MinerU合同PDF批量OCR.md) — 港华尽调合同扫描件 MinerU API 批量 OCR 提取标题
+- [通汇项目-手续清单文档批量OCR与结构化提取](project-specific/通汇项目-手续清单文档批量OCR与结构化提取.md) — 通汇光伏资产包手续清单 OCR + LLM 提取 + Excel 整理
 
 ---
 
