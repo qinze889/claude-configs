@@ -2,13 +2,13 @@
 
 ## 系统
 
-- **OS**：Windows 10 Pro
+- **OS**：本地桌面环境
 - **Shell**：Git Bash（MINTty）
 - **claude 命令**：配置 `--permission-mode dontAsk`
 
 ## Python
 
-- **虚拟环境**：位于 `合同扫描件/.venv/`
+- **虚拟环境**：位于项目本地 `.venv/`（不记录具体业务目录）
 - **LLM API**：
   - 主力：DeepSeek（`DEEPSEEK_API_KEY`）
   - 备选：Claude（`ANTHROPIC_AUTH_TOKEN`）
