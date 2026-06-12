@@ -1,7 +1,7 @@
 ---
-name: MinerU合同PDF批量OCR
+name: 合同PDF批量OCR
 type: project-specific
-project: 港华尽调合同处理
+project: 合同尽调文档处理（已脱敏）
 created: 2026-06-08
 updated: 2026-06-08
 tags: [mineru, ocr, contract, pdf]
@@ -118,14 +118,14 @@ python extract_company_titles.py \
 
 ```json
 {
-  "sheet": "洛阳晶航",
-  "folder": "1 洛阳晶航光伏发电有限公司",
+  "sheet": "项目A",
+  "folder": "1 项目A公司",
   "seq": 5,
   "seq_str": "5",
   "pdf": "5 合同.pdf",
-  "original_name": "屋顶租赁合同",
-  "code": "FBSCON-2024-001",
-  "title": "屋顶租赁及能源管理合同",
+  "original_name": "示例合同",
+  "code": "CONTRACT-YYYY-001",
+  "title": "示例合同标题",
   "status": "success",
   "method": "ocr",
   "category": "SCAN"
@@ -137,7 +137,7 @@ python extract_company_titles.py \
 
 ## 踩坑笔记
 
-- MinerU API **无认证密钥**，可能是 IP 白名单或 Cookie 会话认证
+- 不要在流程记录中写入真实认证方式、Cookie、IP 白名单或会话信息；只记录调用形态
 - 脚本中禁用了 SSL 验证（`verify=False` / `ctx.check_hostname = False`）
 - API 限流：每个 SCAN 请求间隔 2~3 秒，否则可能 429
 - 上传 OSS 用 PUT 方法，Content-Type 必须设 `application/pdf`
@@ -147,8 +147,8 @@ python extract_company_titles.py \
 
 ## 关联
 
-- 项目根 CLAUDE.md：`Desktop/归档/合同文档/港华/港华总文件/CLAUDE.md`
-- Python 脚本目录：`合同扫描件/`
-- 分类结果：`合同扫描件/pdf_category_analysis.json`
-- OCR 结果：`合同扫描件/ocr_results.json`
-- 任务单：`合同扫描件/task_*.json`
+- 项目根 CLAUDE.md：`<项目根>/CLAUDE.md`
+- Python 脚本目录：`<项目根>/scripts/`
+- 分类结果：`<项目根>/pdf_category_analysis.json`
+- OCR 结果：`<项目根>/ocr_results.json`
+- 任务单：`<项目根>/tasks/task_*.json`
